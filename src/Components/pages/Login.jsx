@@ -25,7 +25,7 @@ const Login = () => {
         alert('Login failed: No token received')
       }
     } catch (error) {
-      alert('Login error:', error)
+      alert('Login error : please check your credentials', error)
     }
  
     window.location.reload();

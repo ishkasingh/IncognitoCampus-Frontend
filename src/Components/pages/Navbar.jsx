@@ -34,6 +34,11 @@ const Navbar = () => {
             type="text"
             placeholder="Search something here..."
             className="w-full rounded-full bg-gray-200 py-2 pl-4 pr-10 text-sm text-gray-600 placeholder-gray-400 focus:outline-none"
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                window.location.href = `/search?query=${encodeURIComponent(e.target.value)}`;
+              }
+            }}
           />
           <svg className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M11.742 10.344a6.5 6.5 0 111.397-1.398l3.85 3.85a1 1 0 01-1.415 1.415l-3.85-3.85zM12 6.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" />

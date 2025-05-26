@@ -69,7 +69,7 @@ const Collagelist = () => {
           >
             <div className="font-bold  text-lg mb-1 ">{room.roomName}</div>
             {room.college && (
-              <div className="text-sm text-black  font-semibold ont-semibold ">{room.college}</div>
+              <div className="text-sm text-black  font-semibold ont-semibold ">{room.name}</div>
             )}
           </li>
         ))}

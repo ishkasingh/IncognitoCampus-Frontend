@@ -37,20 +37,22 @@ const Home = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full max-w-3xl mt-8">
       <div className="bg-white text-gray-900 rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
         <h2 className="text-lg font-semibold mb-2 text-purple-700">
-          Your Privacy is Our Priority
+        🔐 Your Privacy, Our Commitment
         </h2>
         <ul className="text-xs space-y-2 text-gray-600">
           <li className="flex items-start">
-            <span className="text-base mr-2">🔒</span>
-            <span>End-to-end encryption for all messages</span>
+            <span className="text-base mr-2">🧑‍💻</span>
+            <span>Usernames are auto-generated during registration to ensure anonymity.</span>
           </li>
           <li className="flex items-start">
             <span className="text-base mr-2">🕵️</span>
-            <span>No personal information required to join</span>
+            <span>Join rooms based on Interests— no public profile needed</span>
           </li>
           <li className="flex items-start">
-            <span className="text-base mr-2">🗑️</span>
-            <span>Messages auto-delete after 24 hours</span>
+            <span className="text-base mr-2">🚫</span>
+            <span> No personal information is shared — you're always in control.
+
+</span>
           </li>
         </ul>
       </div>
@@ -65,15 +67,15 @@ const Home = () => {
             <span className="text-base mr-2">📧</span>
             <strong className="mr-1">Email:</strong>
             <a
-              href="mailto:addcollege@incognitocampus.com"
+              href="mailto:jainpriyashu0129@gmail.com"
               className="text-indigo-600 hover:text-indigo-800 hover:underline transition duration-300"
             >
-              addcollege@incognitocampus.com
+              jainpriyashu0129@gmail.com
             </a>
           </li>
           <li className="flex items-center">
             <span className="text-base mr-2">📱</span>
-            <strong className="mr-1">Contact:</strong> +91-9876543210
+            <strong className="mr-1">Contact:</strong> +91-9407108100
           </li>
         </ul>
       </div>

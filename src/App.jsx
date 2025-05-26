@@ -10,14 +10,22 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./Components/pages/Login";
 import Channels from "./Components/pages/Channels";
 import ErrorBoundary from "./Components/pages/ErrorBoundary";
+import Search from "./Components/pages/Search";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function App() {
   try {
     return (
    
    <div >
       
-      <Navbar />
       
+      <Navbar />
+      <ToastContainer position="top-center" />
+
+
       <div className="flex ">
       <VerticalNavbar  />
       <Routes>
@@ -25,7 +33,7 @@ export default function App() {
         <Route path="/mycollage" element={<Collagelist />} />
         <Route path="/login" element={<Login />} />
         <Route path="/channels" element={<Channels />} />
-        
+        <Route path="/search" element={<Search />} />
       </Routes>
       </div>
     </div>

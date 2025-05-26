@@ -2,12 +2,13 @@ import React, { useContext } from 'react'
 import { ChatContext } from '../../Context/ChatContext';
 import axios from 'axios';
 import Navbar from './Navbar';
+import { toast } from 'react-toastify';
 
 const Channels = () => {
 
     const {rooms} = useContext(ChatContext);
-    console.log(rooms,"ppppppcccc");
-    console.log(rooms.id,"ppppppcccc");
+    // console.log(rooms,"ppppppcccc");
+    // console.log(rooms.id,"ppppppcccc");
 
     const userInfo = JSON.parse(localStorage.getItem('userInfo'));
     const id = userInfo.id;
@@ -15,7 +16,7 @@ const Channels = () => {
     const subscribehandler =  async (idx)=>{
         try {
             const res = await axios.post(`http://localhost:8080/api/users/${id}/follow/${idx}`);
-            alert("Subscribed successfully");
+            toast.success("Subscribed successfully");
         } catch (error) {
             console.log(error);
         }
