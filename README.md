@@ -1,12 +1,34 @@
-# React + Vite
+# 🟣 IncognitoCampus Frontend – React-based Anonymous Campus Chat 🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for **IncognitoCampus** – a privacy-first platform enabling students to engage in anonymous conversations within their campus communities.
 
-Currently, two official plugins are available:
+Built using **React.js**, this lightweight interface allows students to chat without creating an account, thanks to dynamic usernames and session-based identity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧑‍🎓 Campus-specific chatrooms
+- 🔒 No login/signup required
+- ⚡ Live messaging via WebSocket
+- 🔐 Unique anonymous username for every session
+- 🕒 Auto-deleting messages after 24 hours
+- 📄 Daily chat summaries (via AI)
+- 🛡️ Toxicity detection and content filtering (integrated with backend)
+
+---
+
+## 🌐 Live Demo
+
+🎥 [Watch Demo Video](https://drive.google.com/file/d/1c4CG_XIv4MtwOy2cwsg2WfzXG5xnJbg3/view?usp=drive_link)
+
+---
+
+## 🛠️ Built With
+
+- **React.js**
+- **JavaScript**
+- **CSS (custom + modules)**
+- **Axios** for API calls
+- **WebSocket** for real-time chat updates
+
