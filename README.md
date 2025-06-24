@@ -32,3 +32,9 @@ Built using **React.js**, this lightweight interface allows students to chat wit
 - **Axios** for API calls
 - **WebSocket** for real-time chat updates
 
+
+### 🔗 Backend Repository
+
+To run the full application, make sure the backend is up and running:  
+👉 [IncognitoCampus Backend GitHub Repo](https://github.com/ishkasingh/IncognitoCampus-Backend)
+
